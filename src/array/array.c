@@ -1,4 +1,11 @@
-//
-// Created by lustr on 04/11/2021.
-//
+#include <MyLib/array/array.h>
+
+#include <stdio.h>
+
+void mylib_print(int v[], int n){
+    for(int i = 0; i < n; i++)
+    {
+        printf("%d", v[i]);
+    }
+}
 
