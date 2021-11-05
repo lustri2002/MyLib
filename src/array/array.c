@@ -1,7 +1,7 @@
 #include <MyLib/array/array.h>
 
 #include <stdio.h>
-#include <ctime>
+#include <time.h>
 #include <stdlib.h>
 
 void mylib_print(int v[], int n)
