@@ -47,7 +47,7 @@ void mylib_partition(inout int a[], in int n)
 {
     int pivot = a[0];
     int memo = n - 1;
-    printf("pivot: %d \n\n", pivot);
+    //printf("pivot: %d \n\n", pivot);
     for (int i = n - 1; i > 0; i--)
     {
         if (a[i] > pivot)
